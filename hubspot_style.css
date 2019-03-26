@@ -7,7 +7,6 @@
 
 body{
   width: 100vw;
-  height: 100vh;
   max-width: 100%;
 }
 
@@ -16,15 +15,13 @@ body{
 }
 
 /* Inizio header */
-header{
-  width: 100%;
-  height: 70px;
-  background-color: #f5f8fa;
-  border-bottom: 2px solid #33475b;
-}
-
 .fixed_bar{
   position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #33475b;
 }
 
 header > div > i{
@@ -76,12 +73,13 @@ nav{
   height: 70px;
   background-color: white;
   position: relative;
+  transform: translate(0, 70px);
 }
 
 nav > img{
   width: 100px;
   height: 30px;
-  margin-top: 18px;
+  margin-top: 20px;
   float: left;
 }
 
@@ -93,8 +91,36 @@ nav > ul{
 nav > ul > li{
   float: left; /* altrimenti le opzioni vanno da about -> software*/
   display: inline-block;
-  padding: 22px 10px;
+  padding: 28px 10px;
 }
 /* fine nav bar */
 
 /* Fine header */
+
+
+/* Inizio primo contenuto */
+
+.first_content{
+  width: 100%;
+  background-image: linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
+  height: 100vh;
+  float: left;
+  margin-top: 18.4px;
+  border-top: 1px solid #33475b;
+}
+
+.first_content > div > h1{
+  float: left;
+  color: white;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-right: 600px;
+}
+
+.first_content > div >p{
+  padding-top: 25px;
+  float: left;
+  padding-right: 650px;
+  color: white;
+  line-height: 25px;
+}
