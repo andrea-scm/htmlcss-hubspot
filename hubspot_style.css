@@ -1,3 +1,5 @@
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -153,11 +155,15 @@ nav > ul > li{
 
 /* Inizio secondo contenuto */
 
+.container_second_content{
+  float: left;
+  padding-bottom: 40px;
+}
+
 .second_content{
   width: 100%;
   float: left;
   background-color: #f5f8fa;
-  height: 800px;
 }
 
 .second_content_padding{
@@ -185,8 +191,6 @@ nav > ul > li{
   width: 95%;
   margin-top: 30px;
   padding: 20px 100px;
-  border-radius: 2%;
-  float: left;
   transform: translate(25px, 0);
   height: 280px;
 }
@@ -203,14 +207,18 @@ nav > ul > li{
   box-shadow: 0 0 11px rgba(51, 71, 91, .5);
 }
 
-.top_container > button{
-    transform: translate(-490px, 200px);
+.top_container > button,
+.column > button{
     padding: 10px 20px;
     background-color: #ff7a52;
     color: white;
     border: 0;
     border-radius: 5%;
     font-weight: bold;
+}
+
+.top_container > button{
+  transform: translate(-490px, 200px);
 }
 
 .top_container > h3{
@@ -239,6 +247,7 @@ nav > ul > li{
   width: 305px;
   float: right;
   transform: translate(5px, -10px);
+  opacity: .1;
 }
 
 .top_container > ul{
@@ -246,7 +255,8 @@ nav > ul > li{
   float: left;
 }
 
-.top_container > ul > li{
+.top_container > ul > li,
+.column > ul > li{
   display: inline-block;
   padding:0 30px 0 15px;
   font-size: 13px;
@@ -254,7 +264,82 @@ nav > ul > li{
   color: #33475b;
 }
 
-.top_container > ul >li::before{
-  font-family: Font Awesome 5 Free;
-  content: 'f058';
+.top_container > ul >li::before,
+.column > ul >li::before{
+  color: orange;
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  padding: 0 5px;
+  font-size: 15px;
 }
+
+.bottom_three_container{
+  width: 95%;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-radius: 2%;
+  transform: translate(25px, 0);
+}
+
+.zoom:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 11px rgba(51, 71, 91, .5);
+}
+
+.column{
+  float: left;
+  width: 32%;
+  background-color: white;
+  text-align: center;
+}
+
+.column > img{
+  width: 140px;
+  height: 170px;
+  padding: 20px 0;
+}
+
+.column > h3{
+  color: #33475b
+}
+
+.column > p{
+  padding: 15px 25px;
+  text-align: left;
+  color: #33475b;
+}
+
+.column > hr{
+  width: calc(100% - 50px);
+  color: #33475b;
+  opacity: .1;
+  transform: translate(25px, 0);
+}
+
+.column > h4{
+  padding: 10px 0;
+  color: #33475b;
+}
+
+.column > ul > li{
+  display: block;
+  padding: 5px 0;
+}
+
+.column > button{
+  margin: 20px 0;
+}
+
+#middle_column{
+  margin-left: 18px;
+}
+
+#right_column > img{
+  height: 150px;
+}
+
+#right_column{
+  float: right;
+}
+
+/* Fine secondo contenuto */
