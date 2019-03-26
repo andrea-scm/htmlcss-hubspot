@@ -136,6 +136,7 @@ nav > ul > li{
   height: 80px;
   width: 220px;
   text-align: center;
+  float: left;
 }
 
 .first_content > div > button:hover{
@@ -146,6 +147,7 @@ nav > ul > li{
   color: rgba(255, 255, 255, .6);
   padding-right: 900px;
   font-size: 12px;
+  float: left;
 }
 /* Fine primo contenuto */
 
