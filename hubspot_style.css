@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.general_padding{
+  padding: 0 15%;
+}
+
+/* Inizio header */
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #f5f8fa;
+  border-bottom: 2px solid #33475b;
+}
+
+.fixed_bar{
+  position: fixed;
+}
+
+header > div > i{
+    padding: 25px 10px 25px 0;
+    color: #33475b;
+}
+
+.selector{
+  background-color: transparent;
+  border: none;
+  color: #33475b;
+  font-size: 15px;
+}
+
+header > div > span{
+  padding: 0px 10px;
+  border-left: 2px solid #cbd6e2;
+  color: #33475b;
+}
+
+.header_box{
+  float: right;
+  padding: 25px 0;
+  transform: translate(0, -10px);
+}
+
+.header_box > i{
+  color: #00a4bd;
+  margin-right: 20px;
+}
+
+.header_box > button{
+  background-color: white;
+  color: #ff7a59;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #ff7a59;
+  border-radius: 5%;
+}
+
+#orange{
+  background-color: #ff7a59;
+  color: white;
+}
+
+/* inizio nav bar */
+nav{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: relative;
+}
+
+nav > img{
+  width: 100px;
+  height: 30px;
+  margin-top: 18px;
+  float: left;
+}
+
+nav > ul{
+  position: absolute;
+  right: 225px;
+}
+
+nav > ul > li{
+  float: left; /* altrimenti le opzioni vanno da about -> software*/
+  display: inline-block;
+  padding: 22px 10px;
+}
+/* fine nav bar */
+
+/* Fine header */
