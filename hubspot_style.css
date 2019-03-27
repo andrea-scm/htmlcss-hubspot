@@ -128,7 +128,8 @@ nav > ul > li{
   line-height: 25px;
 }
 
-.first_content > div > button{
+.first_content > div > button,
+.profile > button{
   background-color: white;
   border: none;
   border-radius: 4%;
@@ -349,7 +350,6 @@ nav > ul > li{
 /* Fine secondo contenuto */
 
 /* Inizio terzo contenuto */
-
 .third_content{
   width: 100%;
   float: left;
@@ -419,3 +419,75 @@ nav > ul > li{
 /* Fine terzo contenuto */
 
 /* Inizio quarto contenuto */
+.fourth_content{
+  width: 100%;
+  float: left;
+  display:block;
+}
+
+.costumers{
+  padding: 100px 0 350px 0;
+  color: #33475b;
+  float: left;
+}
+
+.costumers > p{
+  padding:10px 850px 0 0;
+  line-height: 25px;
+  float: left;
+}
+
+.costumers > p > span{
+  font-weight: bold;
+}
+
+.costumers_logo{
+  float: right;
+  transform: translate(0, -120px);
+}
+
+.costumers_logo > img,
+.customers_logo_second_row > img{
+  padding: 10px 40px 10px 30px;
+}
+
+.profile{
+  color: #33475b;
+  float: left;
+  height: 500px;
+}
+
+.profile h1,
+.profile > p{
+  padding: 10px 600px 10px 0;
+  float: left;
+}
+
+#profile_smaller{
+  color: #33475b;
+  opacity: .5;
+}
+
+.profile > img{
+  float: right;
+  width: 375px;
+  height: 410px;
+  background-color: #f2547d;
+  border-radius: 50%;
+  background-image: url('img/profile.png');
+  background-position: 35% 25%;
+  background-size: 120%;
+  transform: translate(0, -400px);
+  padding: 0;
+}
+/* fine quarto contenuto */
+
+/* inizio footer */
+
+footer{
+  width: 100%;
+  float: left;
+  display:block;
+  background-color: #33475b;
+  height: 500px;
+}
