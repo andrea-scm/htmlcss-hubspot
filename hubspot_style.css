@@ -156,9 +156,6 @@ nav > ul > li{
 /* Fine primo contenuto */
 
 /* Inizio secondo contenuto */
-
-
-
 .second_content{
   width: 100%;
   float: left;
@@ -489,5 +486,101 @@ footer{
   float: left;
   display:block;
   background-color: #33475b;
-  height: 500px;
+  padding: 100px 0 20px 0;
 }
+
+.footer_link{
+  width: 25%;
+  padding-right: 16px;
+  color: #fff;
+  float: left;
+}
+
+.footer_link > h3{
+  padding: 10px 0;
+}
+.footer_link > ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_link > ul > li{
+  padding: 5px 0;
+}
+
+.footer_link > ul > li > a{
+  text-decoration: none;
+}
+
+.footer_link > ul > li > a:hover,
+.social > li > a:hover,
+.footer_languages > ul > li > a:hover,
+.right_shifted > ul > li > a:hover{
+  color: #6ccad9;
+}
+
+.footer_link > ul > li > select{
+  background: none;
+  border: none;
+  color: white;
+}
+
+.footer_link > button{
+  background-color: white;
+  color: #33475b;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 2%;
+  font-size: 12px;
+}
+
+.social > li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer_languages{
+  text-align: center;
+}
+
+.footer_languages > ul > li{
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+
+.footer_languages > ul > li > a{
+  text-decoration: none;
+}
+
+footer > .general_padding > hr{
+  margin-top: 20px;
+  color: #6a849f;
+}
+
+footer > .general_padding > a > img{
+  margin-top: 20px;
+}
+
+footer > .general_padding > p{
+  margin-top: 5px;
+}
+
+.right_shifted{
+  float: right;
+}
+
+.right_shifted{
+  float: right;
+  transform: translateY(-60px);
+}
+
+.right_shifted > ul > li{
+  display: inline-block;
+}
+
+.right_shifted > ul > li > a{
+  text-decoration: none;
+}
+/* fine footer */
