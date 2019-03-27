@@ -105,10 +105,11 @@ nav > ul > li{
 .first_content{
   width: 100%;
   background-image: linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
-  height: 600px;
+  display: block;
   float: left;
   margin-top: 18.4px;
   border-bottom: 2.5px solid #33475b;
+  padding-bottom: 35px;
 }
 
 .first_content > div > h1{
@@ -155,15 +156,14 @@ nav > ul > li{
 
 /* Inizio secondo contenuto */
 
-.container_second_content{
-  float: left;
-  padding-bottom: 40px;
-}
+
 
 .second_content{
   width: 100%;
   float: left;
   background-color: #f5f8fa;
+  display:block;
+  border-bottom: 2.5px solid #33475b;
 }
 
 .second_content_padding{
@@ -184,6 +184,11 @@ nav > ul > li{
 .logo > p{
   margin: 20px 0;
   padding: 0 90px;
+}
+
+.container_second_content{
+  float: left;
+  padding-bottom: 40px;
 }
 
 .top_container{
@@ -341,5 +346,76 @@ nav > ul > li{
 #right_column{
   float: right;
 }
-
 /* Fine secondo contenuto */
+
+/* Inizio terzo contenuto */
+
+.third_content{
+  width: 100%;
+  float: left;
+  display:block;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  border-bottom: 2.5px solid #33475b;
+}
+
+.third_content > .general_padding > h1{
+  padding: 130px 100px 30px 100px;
+}
+
+.third_content > .general_padding > p{
+  padding: 5px 100px 100px 100px;
+}
+
+.third_content > .general_padding > hr{
+  color: white;
+}
+
+.first_row > div{
+  display: inline-block;
+  padding: 40px 0 40px 0;
+  width: 220px;
+  height: 190px;
+}
+
+.first_row >div  h1{
+  margin-top: 20px;
+}
+
+.first_row > div p{
+  padding: 0;
+  margin: 0;
+}
+
+.first_row >div  h1::after{
+  content: '+';
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#logo_1{
+  width: 44px;
+  height: 33px;
+}
+
+.border_logo{
+  border-right: 1px solid white;
+}
+
+.second_row > div{
+  display: inline-block;
+  padding: 40px 0 20px 0;
+  width: 220px;
+  height: 190px;
+}
+
+.second_row >div  h1::after{
+  content: '+';
+  font-weight: normal;
+  font-size: 30px;
+}
+/* Fine terzo contenuto */
+
+/* Inizio quarto contenuto */
